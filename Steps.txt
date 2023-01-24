@@ -12,22 +12,29 @@ Instrucciones
 5.- Clonar el repositorio
   git clone https://github.com/checodroid/Des_Web.git
 
-6.- Iniciar el repositorio
+6.- Asegurarse de estar dentro del repositorio para iniciarlo con:
   git init
-  
-7.- Verificar el estado del repositorio
-  git status
-  
-8.- Crear un documento de cualquier tipo para añadirlo al repositorio
 
-9.- Añadir el documento
+7.- Configurar usuario y correo
+  git config --global user.name "tu_usuario"
+  git config --global user.email "tucorreo@email.com"
+  
+8.- Verificar el estado del repositorio
+  git status
+
+9.- Realizar un pull para asegurarse de que el repositorio se clonó por completo
+  git pull
+  
+10.- Crear un documento de cualquier tipo para añadirlo al repositorio
+
+11.- Añadir el documento
   git add [nombre_de_tu.documento] (recuerda escribir correctamente el nombre junto con su extension y sin usar los corchetes)
   
-10.- Realizar un commit para dejar un mensaje acerca de tu archivo
+12.- Realizar un commit para dejar un mensaje acerca de tu archivo
   git commit -m "Escribe tu mensaje entre comillas"
   
-11.- Realizar el push a la rama main
+13.- Realizar el push a la rama main
   git push origin main
   
-12.- Verificar los cambios
+14.- Verificar los cambios
   git status
